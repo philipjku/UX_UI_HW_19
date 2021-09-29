@@ -1,0 +1,108 @@
+/*  Olive Green #4B443C
+    Burgundy #4D0011
+    Gunmetal Gray #53565A
+    Cool Gray #E4E5E8*/
+
+body{
+    font-family: 'Arimo', 'Times New Roman', Times, serif;
+    margin: 0% auto;
+    background-color: #E4E5E8;
+}
+
+.inline-block{
+    display:inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav{
+    float: right;
+    text-align: right;
+    padding: 10px;
+}
+
+button{
+    background-color: #4B443C;
+    color: white;
+    padding: 5px;
+    border-radius: 10%;
+}
+
+.heroImg{
+    margin: 0;
+    height: 400px;
+    padding: 10px;
+}
+
+#hero{
+    height: 200px;
+}
+
+.content{
+    width: 500px;
+    font-size: 48px;
+}
+
+.workGrid{
+    display: grid;
+    margin: 20px;
+    grid-template-rows: 400px;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: 
+    "shareJet FYA";
+}
+
+.caseStudy{
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+.caseStudy img{
+    height: 200px;
+}
+
+.description{
+    margin-left: 50px;
+    margin-right:  50px;
+}
+footer{
+    background-color: #4D0011;
+    color: white;
+}
+
+footer > ul{
+    margin: 0;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 750px) 
+{
+    #navigation{
+        display: none;
+      }
+    
+    .heroImg{
+        text-align: center;
+    }
+    
+    .content{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .workGrid{
+        grid-template-rows: 400px 400px;
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+        "shareJet"
+        "FYA";
+    }
+
+    footer > ul{
+        text-align: center;
+    }
+}
