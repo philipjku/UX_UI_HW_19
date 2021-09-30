@@ -6,6 +6,8 @@
 body{
     font-family: 'Arimo', 'Times New Roman', Times, serif;
     margin: 0% auto;
+    padding-left: 10%;
+    padding-right: 10%;
     background-color: #E4E5E8;
 }
 
@@ -13,6 +15,12 @@ body{
     display:inline-block;
     margin-left: 10px;
     margin-right: 10px;
+}
+
+.underline{
+    text-decoration: underline;
+    text-decoration-color: #4D0011;
+    text-decoration-thickness: 5px;
 }
 
 nav{
